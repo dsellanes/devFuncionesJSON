@@ -16,9 +16,9 @@ for (let i = 0; i < 20; i++) {
 // Llamada a funciones a implementar 
 modulosRequeridos = obtenerModulos(jsons);
 
-
+console.log('Modelos requeridos por usuarios: ')
 console.log(modulosRequeridos);
-
+console.log('Cubrimiento minimal de usuarios para todos los modulos: ')
 console.log(cubrimientoModulos(modulosRequeridos));
 
 
